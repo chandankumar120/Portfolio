@@ -1,0 +1,31 @@
+.about {
+  /* padding: 5px 1.5rem; */
+  display: flex;
+  justify-content: space-between;
+}
+.about-us {
+  width: 40vw;
+}
+.language-known {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.lang {
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+  /* margin: 1.32rem; */
+  margin: 1.32rem 3rem;
+}
+.lang i {
+  /* border-radius: 50%; */
+  color: rgb(0, 17, 255);
+  margin-bottom: 0.5rem;
+  font-size: 50px;
+  transition: 0.3s;
+}
+.lang i:hover {
+  transform: scale(150%);
+}

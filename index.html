@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/9a65bf148d.js" crossorigin="anonymous"></script>
+  <script src="javaScript/animation.js" defer></script>
+  <link rel="stylesheet" href="css/navbar.css" />
+  <link rel="stylesheet" href="css/home.css" />
+  <link rel="stylesheet" href="css/portfolio.css" />
+  <link rel="stylesheet" href="css/about.css" />
+  <link rel="stylesheet" href="css/contact.css" />
+  <link rel="stylesheet" href="animation.css">
+  <title>Know Me</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    @import url("https://fonts.googleapis.com/css2?family=Courgette&family=Kalam:wght@300&family=Ubuntu+Condensed&display=swap");
+
+    * {
+      margin: 0%;
+      padding: 0%;
+      text-decoration: none;
+      list-style: none;
+    }
+
+    body {
+      background-color: rgb(180, 221, 221);
+    }
+
+    p {
+      margin-bottom: 0.5rem;
+      font-size: 17px;
+    }
+
+    h2 {
+      font-size: 30px;
+      font-family: "Courgette", cursive;
+    }
+
+    h3 {
+      font-size: 20px;
+      text-transform: capitalize;
+      font-family: "Kalam", cursive;
+    }
+
+    h5 {
+      font-size: 16px;
+    }
+
+    @keyframes portfolio {
+      0% {
+        /* background-color: red; */
+        transform: scale(50%);
+      }
+
+      100% {
+        /* background-color: yellow; */
+        transform: scale(100%);
+      }
+    }
+
+    #portfolio {
+      animation-name: portfolio;
+      animation-duration: 1s;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      padding: 0 80px;
+      margin: auto;
+      padding-top: 3rem;
+    }
+
+    .btn {
+      font-size: 15px;
+      background-color: rgb(13, 231, 205);
+      border-radius: 5px;
+      padding: 5px 8px;
+      margin-top: 5px;
+      border: 2px solid blue;
+    }
+
+    .btn-2 {
+      font-size: 15px;
+      border: 2px solid blue;
+      border-radius: 5px;
+      padding: 3px 8px;
+      margin-top: 5px;
+    }
+
+    .btn:hover {
+      background-color: rgb(40, 73, 240);
+      color: white;
+    }
+
+    .btn-2:hover {
+      background-color: rgb(40, 73, 240);
+      color: white;
+    }
+
+    .btn:active {
+      background-color: rgb(1, 14, 18);
+      color: wheat;
+    }
+
+    .btn-2:active {
+      background-color: rgb(1, 14, 18);
+      color: wheat;
+    }
+
+    .sub-heading {
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="bodyContainer">
+    <nav id="navbar">
+      <div class="navbar-container">
+        <div class="logo">
+          <a href="#home"><i class="fa-solid fa-diagram-project">Portfolio</i></a>
+        </div>
+        <ul class="menu">
+          <li class="links"><a href="#home">Home</a></li>
+          <li class="links"><a href="#portfolio">Portfolio</a></li>
+          <li class="links"><a href="#about">About</a></li>
+          <li class="links"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="home">
+      <div class="container">
+        <div class="home-content">
+          <div class="text-1">Hello, My Name is</div>
+          <div class="text-2">Chandan Kumar</div>
+          <div class="text-3">And I'm a <span id="span"></span>.</div>
+        </div>
+        <div><a href="#about" class="btn">Learn More</a></div>
+      </div>
+    </section>
+    <section id="portfolio">
+      <div class="container">
+        <h2 class="heading">My Portfolio</h2>
+        <div class="projects sub-heading">
+          <div class="project">
+            <div class="img-sect">
+              <img src="Screenshot (13).png" alt="" />
+            </div>
+            <div class="content">
+              <h3>ChatApp</h3>
+              <p>
+                Created web Chatting site forself to learn more about html,Css
+                & JavaScript. <br />
+                In this i have used html to create block. <br />
+                In this i have used css for designing. <br />
+                In this i have used JavaScript for events and action.
+              </p>
+              <h4>Stack</h4>
+              <ul class="stack-content">
+                <li>html</li>
+                <li>css</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="btn-container">
+                <a href="#" class="btn">Source Code</a>
+                <a href="#" class="btn-2">Live Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="project">
+            <div class="img-sect">
+              <img src="" alt="" />
+            </div>
+            <div class="content">
+              <h3>project name</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptate, hic. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Deleniti, vitae.
+              </p>
+              <h4>Stack</h4>
+              <ul class="stack-content">
+                <li>html</li>
+                <li>c++</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="btn-container">
+                <a href="#" class="btn">Source Code</a>
+                <a href="#" class="btn-2">Live Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <h2 class="heading">About me</h2>
+        <div class="about sub-heading">
+          <div class="achievement about-us">
+            <h3>Achievement</h3>
+            <p style="margin-bottom: 0.5rem">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque modi necessitatibus temporibus corporis nihil
+              molestias nisi quisquam assumenda accusantium! Corporis. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Inventore
+              deserunt consequuntur velit, culpa quibusdam laudantium
+              repudiandae nostrum praesentium. Voluptatum, amet. Sunt et,
+              doloremque optio aut quia nemo facilis odit omnis! Lorem, ipsum
+              dolor sit amet consectetur adipisicing elit. Libero voluptate
+              excepturi mollitia aliquam illum incidunt, repellendus quam
+              magni impedit dolores. Ab ratione nostrum illum explicabo
+              repellendus hic saepe cumque quae.
+            </p>
+            <a href="/Chandan  Kumar-GU.pdf" target="blank" class="btn">View CV</a>
+          </div>
+          <div class="language about-us">
+            <h3>What I know</h3>
+            <div class="language-known">
+              <div class="lang">
+                <i class="fa-brands fa-html5"></i>
+                <h3>html</h3>
+              </div>
+              <div class="lang">
+                <i class="fa-brands fa-css3"></i>
+                <h3>Css</h3>
+              </div>
+              <div class="lang">
+                <i class="fa-brands fa-js"></i>
+                <h3>JavaScript</h3>
+              </div>
+              <div class="lang">
+                <i class="fa-solid fa-copyright"></i>
+                <h3>C,C++</h3>
+              </div>
+              <div class="lang">
+                <i class="fa-brands fa-java"></i>
+                <h3>Java</h3>
+              </div>
+              <div class="lang">
+                <i class="fa-brands fa-python"></i>
+                <h3>Python</h3>
+              </div>
+              <div class="lang">
+                <i class="fa-solid fa-database"></i>
+                <h3>SQL</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <h2 class="heading">Contact Us</h2>
+        <div class="contact-sec sub-heading">
+          <div class="contact-us">
+            <h3>Get in Touch with us.</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod
+              error fugit, dolores fuga id neque voluptas totam quis magnam
+              facilis explicabo voluptatem vitae dolor aspernatur odio natus
+              reiciendis. Rem, hic?
+            </p>
+            <div class="details">
+              <i class="fa-solid fa-user"></i>
+              <div class="info">
+                <h4>Name</h4>
+                <h5>Chandan Kumar</h5>
+              </div>
+            </div>
+            <div class="details">
+              <i class="fa-solid fa-location-crosshairs"></i>
+              <div class="info">
+                <h4>Address</h4>
+                <h5>Greater Noida, U.P</h5>
+              </div>
+            </div>
+            <div class="details">
+              <i class="fa-solid fa-at"></i>
+              <div class="info">
+                <h4>Email</h4>
+                <h5>chandansharma642@gmail.com</h5>
+              </div>
+            </div>
+            <div class="details">
+              <i class="fa-brands fa-linkedin"></i>
+              <div class="info">
+                <h4>LinkedIn</h4>
+                <h5><a href="https://www.linkedin.com/in/chandan938/">in/chandan938</a></h5>
+              </div>
+            </div>
+          </div>
+          <div class="contact-us">
+            <h3>Message Me</h3>
+            <form action="#" class="form">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input class="field" type="text" name="name" id="name" placeholder="Enter Name" required/>
+              </div>
+              <div class="form-group">
+                <label for="name">E-Mail</label>
+                <input class="field" type="email" name="email" id="email" placeholder="Enter Email" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="field textarea" name="message" id="message" placeholder="Enter Message" required></textarea>
+              </div>
+              <input type="submit" value="Send Message" class="btn" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+    const text = document.getElementById("span");
+    let arr = ["Programmer", "Developer", "Freelancer"];
+    let textIndex = 0;
+    let charIndex = 0;
+    function type() {
+      if (charIndex < arr[textIndex].length) {
+        text.textContent += arr[textIndex].charAt(charIndex);
+        charIndex++;
+        setTimeout(type, 100);
+      } else {
+        setTimeout(erase, 200);
+      }
+    }
+    function erase() {
+      if (charIndex > 0) {
+        text.textContent = arr[textIndex].substring(0, charIndex - 1);
+        charIndex--;
+        setTimeout(erase, 100);
+      } else {
+        textIndex++;
+        if (textIndex >= arr.length) {
+          textIndex = 0;
+        }
+        setTimeout(type, 200);
+      }
+    }
+    document.addEventListener("DOMContentLoaded", function () {
+      setTimeout(type, 10);
+    });
+
+
+    $.getScript("javaScript/animation.js", function () {
+      myFunction();
+    });
+
+  </script>
+</body>
+
+</html>

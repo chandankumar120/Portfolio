@@ -1,0 +1,39 @@
+/* #contact .container {
+  height: 92vh;
+} */
+.contact-sec {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-us {
+  width: 40vw;
+}
+.form-group {
+  margin: 0.75rem 0;
+}
+.form label {
+  display: block;
+  font-size: 18px;
+}
+.details {
+  display: flex;
+  padding: 0.5rem;
+}
+.details i {
+  padding: 1rem;
+  color: #0000ff;
+}
+.details .info {
+  margin-top: 0.8rem;
+}
+.field{
+  width: 80%;
+  height: 25px;
+  border-radius: 5px;
+  padding: 4px 15px;
+}
+.textarea{
+  resize: none;
+  height: 100px;
+  /* box-sizing: border-box; */
+}

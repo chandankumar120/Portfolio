@@ -1,0 +1,41 @@
+/* home section */
+#home {
+    height: 100vh;
+    background: url("cube_3d_graphics_black_gray_background_3d_graphics_74555_1920x1200.jpg") center no-repeat;
+    background-size: cover;
+}
+
+#home .container {
+    justify-content: center;
+}
+.home-content{
+    margin-bottom: 0.5rem;
+}
+
+#home .container .text-1 {
+    font-size: 35px;
+    color: rgb(151, 188, 220);
+}
+
+#home .container .text-2 {
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+
+#home .container .text-3 {
+    font-size: 28px;
+    color: rgb(246, 98, 6);
+
+}
+#home .container .text-3 span{
+    color: rgb(0, 255, 247);
+}
+.stack-content{
+    font-size: 20px;
+}
+.stack-content li{
+    font-size: 18px;
+    border: 2px solid grey;
+    padding: 0px 7px;
+    border-radius: 5px;
+}

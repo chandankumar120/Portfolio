@@ -1,0 +1,31 @@
+@keyframes about {
+  0% {
+    transform: translate(-300px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .about-animation {
+    animation-name: about;
+    animation-duration: 1s;
+    /* animation-iteration-count: infinite; */
+  }
+}
+@keyframes contact {
+  0% {
+    transform: translate(300px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .contact-animation {
+    animation-name: contact;
+    animation-duration: 1s;
+  }
+}

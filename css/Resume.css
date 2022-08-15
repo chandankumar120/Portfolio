@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Red+Hat+Text:wght@300&display=swap");
+
+.container {
+  max-width: 60vw;
+  height: fit-content;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1.5fr 3fr;
+  grid-template-rows: 180px 4fr;
+}
+
+.row {
+  padding: 10px;
+  background-color: aliceblue;
+}
+
+.top {
+  background-color: rgb(120, 146, 168);
+}
+
+.right {
+    margin-left: 5px;
+    padding-left: 20px;
+    border-top: 5px solid blue;
+}
+
+.row:first-child {
+  grid-column: 1 / span 2;
+}
+
+.row h1 {
+  position: relative;
+  left: 30%;
+  border-bottom: 2px solid black;
+  width: 70%;
+}
+
+.row h2 {
+  position: relative;
+  left: 30%;
+  width: 70%;
+  line-height: 0%;
+  font-family: "Red Hat Text", sans-serif;
+  letter-spacing: 15px;
+}
+
+.left i {
+  font-size: 20px;
+}
+
+.left .contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+  margin: 5px;
+}
+
+.heading {
+  padding: 10px;
+}
+
+.list {
+  margin-left: 10px;
+  list-style: none;
+  line-height: 25px;
+}
+
+.topic {
+  font-size: 20px;
+  letter-spacing: 15px;
+}
+
+.left .contact .element {
+  list-style: none;
+}
+
+.left .contact .icon {
+  width: 10%;
+  text-align: center;
+}
+
+.left .contact .value {
+  width: 85%;
+}
+.study {
+  margin-bottom: 16px;
+}
+.degree {
+  font-size: 18px;
+}
+.inst,
+.year {
+  font-size: 16;
+  font-style: italic;
+}
+.about{
+    margin-bottom: 20px;
+}
+h3,p{
+    margin: 4px 0px;
+}
+.personalDetails{
+    background-color:rgb(205, 243, 230);
+    padding: 5px 0px;
+    margin: 0%;
+    border-left: 2px solid blue;
+}
+.margin{
+    margin-bottom: 60px;
+}

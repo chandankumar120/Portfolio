@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <script src="https://kit.fontawesome.com/9a65bf148d.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="Resume.css"> -->
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Red+Hat+Text:wght@300&display=swap");
+
+.container {
+  max-width: 60vw;
+  height: fit-content;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1.5fr 3fr;
+  grid-template-rows: 180px 4fr;
+}
+
+.row {
+  padding: 10px;
+  background-color: aliceblue;
+}
+
+.top {
+  background-color: rgb(120, 146, 168);
+}
+
+.right {
+    margin-left: 5px;
+    padding-left: 20px;
+    border-top: 5px solid blue;
+}
+
+.row:first-child {
+  grid-column: 1 / span 2;
+}
+
+.row h1 {
+  position: relative;
+  left: 30%;
+  border-bottom: 2px solid black;
+  width: 70%;
+}
+
+.row h2 {
+  position: relative;
+  left: 30%;
+  width: 70%;
+  line-height: 0%;
+  font-family: "Red Hat Text", sans-serif;
+  letter-spacing: 15px;
+}
+
+.left i {
+  font-size: 20px;
+}
+
+.left .contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+  margin: 5px;
+}
+
+.heading {
+  padding: 10px;
+}
+
+.list {
+  margin-left: 10px;
+  list-style: none;
+  line-height: 25px;
+}
+
+.topic {
+  font-size: 20px;
+  letter-spacing: 15px;
+  border-bottom: 2px solid grey;
+  width: fit-content;
+}
+
+.left .contact .element {
+  list-style: none;
+}
+
+.left .contact .icon {
+  width: 10%;
+  text-align: center;
+}
+
+.left .contact .value {
+  width: 85%;
+}
+.study {
+  margin-bottom: 16px;
+}
+.degree {
+  font-size: 18px;
+}
+.inst,
+.year {
+  font-size: 16;
+  font-style: italic;
+}
+.about{
+    margin-bottom: 20px;
+}
+h3,p{
+    margin: 4px 0px;
+}
+.personalDetails{
+    background-color:rgb(205, 243, 230);
+    padding: 5px 0px;
+    margin: 0%;
+    border-left: 2px solid blue;
+    border-bottom: 2px solid rgb(205, 196, 190);
+}
+.margin{
+    margin-bottom: 60px;
+}
+
+    </style>
+
+<body>
+    <div class="container">
+        <div class="row top">
+            <h1>
+                Chandan Kumar
+            </h1>
+            <h2>Developer</h2>
+        </div>
+        <div class="row left">
+            <div class="personalDetails">
+                <ul class="contact">
+                    <li class="element icon"><i class="fa-brands fa-whatsapp"></i></li>
+                    <li class="element value">8789619710</li>
+                </ul>
+                <ul class="contact">
+                    <li class="element icon"><i class="fa-regular fa-at"></i></li>
+                    <li class="element value">chandansharma6422@gmail.com</li>
+                </ul>
+                <ul class="contact">
+                    <li class="element icon"><i class="fa-solid fa-map-location-dot"></i></li>
+                    <li class="element value">Greater Noida, U.P</li>
+                </ul>
+                <ul class="contact">
+                    <li class="element icon"><i class="fa-brands fa-github"></i></li>
+                    <li class="element value">github.com/chandankumar120</li>
+                </ul>
+            </div>
+            <div class="skills">
+                <h4 class="topic">SKILLS</h4>
+                <ul class="heading">
+                    <li class="list">C, C++</li>
+                    <li class="list">Java</li>
+                    <li class="list">Python</li>
+                    <li class="list">JavaScript</li>
+                    <li class="list">Oracle, Sql Server</li>
+                    <li class="list">HTML, Css</li>
+                    <li class="list">Visual Basic 6.0</li>
+                    <li class="list">Netbeans</li>
+                </ul>
+            </div>
+            <div class="education">
+                <h4 class="topic">EDUCATION</h4>
+                <ul class="heading">
+                    <div class="study">
+                        <li class="list degree">10<sup>th</sup></li>
+                        <li class="list inst">Gyansthali High School, Patna.</li>
+                        <li class="list year">2016</li>
+                    </div>
+                    <div class="study">
+                        <li class="list degree">12<sup>th</sup></li>
+                        <li class="list inst">A. N. College, Patna.</li>
+                        <li class="list year">2016-2018</li>
+                    </div>
+                    <div class="study">
+                        <li class="list degree">B.Sc-IT</li>
+                        <li class="list inst">College of Commerce, Arts & Science, Patna.</li>
+                        <li class="list year">2018-2021</li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div class="row right">
+            <div class="margin aboutme">
+                <h4 class="topic">ABOUT ME</h4>
+                <ul>
+                    <li class="about">
+                        Graduted with Bachelor’s degree in Information Technology and
+                        familiarity with several programming languages.
+                    </li>
+                    <li class="about">
+                        Seeking for the position of a programmer to utilize teamwork and
+                        leadership skills in according the effort of programmers.
+                    </li>
+                    <li class="about">
+                        Also, bringing exceptional skills in designing, coding,and implementing
+                        customizations to exceed customer expectations.
+                    </li>
+                </ul>
+            </div>
+            <div class="margin experience">
+                <h4 class="topic">EXPERIENCE</h4>
+                <h3>Web Developer</h3>
+                <p>Freelance</p>
+                <p>Developed Some websites During our Session as a part time. E.g- Chat App.</p>
+                <ul>
+                    <li class="about">
+                        Can design look and fields by using Html and Css.
+                    </li>
+                    <li class="about">Can apply JavaScript for Dynamic performance of Website.</li>
+                    <li class="about">Can apply MySql for making backend field.</li>
+                </ul>
+            </div>
+            <div class="margin certification">
+                <h4 class="topic">CERTIFICATION</h4>
+                <h3>CCNAv7: Introduction to Networks.</h3>
+                <p>Part of the Cisco Networking Academy Program</p>
+                <UL>
+                    <li class="about">Configure switches and end device to provide acess to network
+                        resources.</li>
+                    <li class="about">Configure routers to enable end-to-end connectivity.</li>
+                    <li class="about">Configure a small network with security best practices.</li>
+                    <li class="about">Troubleshoot connectivity in a small network.</li>
+                </UL>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
