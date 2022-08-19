@@ -29,3 +29,18 @@
 .lang i:hover {
   transform: scale(150%);
 }
+
+@media screen and (max-width:500px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-us {
+    width: 100%;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  
+}

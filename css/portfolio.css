@@ -1,26 +1,43 @@
-/* #portfolio .container,#about .container{
-    height: 92vh;
+/* #portfolio{
+    width: 10vw;
 } */
+
 .container h2 {
   width: fit-content;
   margin: 0.5rem auto;
-  
 }
-.projects{
-    display: flex;
-    justify-content: space-between;
-    padding: 5px 1.5rem;
+.projects {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 5px 1.5rem; */
 }
-.project{
-    width: 40%;
-}.project img{
+.project {
+  width: 40%;
+}
+.project img {
+  width: 100%;
+}
+.stack-content {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 500px) {
+  .container {
+    padding: 0%;
+  }
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+  .project {
     width: 100%;
-}
-.stack-content{
-    display: flex;
-    justify-content: space-between;
-}
-.btn-container{
-    display: flex;
-    justify-content: space-between;
+    border: 2px solid red;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 5px;
+  }
 }
