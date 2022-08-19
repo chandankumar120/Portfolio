@@ -1,35 +1,56 @@
 #navbar {
-    position: fixed;
-    width: 100%;
-    background: #0000ff;
+  position: fixed;
+  width: 100%;
+  background: #0000ff;
 }
 
 .navbar-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 3.0rem;
-    padding: 2px 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* height: 3rem; */
+  padding: 2px 2rem;
 }
 
 .logo a {
-    color: rgb(255, 255, 255);
-    font-size: 24px;
-    letter-spacing: 3px;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  letter-spacing: 3px;
+}
+.menu {
+  display: none;
 }
 
-.menu li {
-    display: inline-block;
-    
-}
 
 #navbar .menu li a {
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 600;
-    padding: 0.45rem;
-    margin: 0 0.25rem;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0.45rem;
+  margin: 0 0.25rem;
 }
-#navbar .menu li a:hover{
-    color: rgb(255, 0, 0);
+#navbar .menu li a:hover {
+  color: rgb(255, 0, 0);
+}
+.res-menu {
+  width: 2rem;
+  height: 2rem;
+  background-color: red;
+  border-radius: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.res-menu .box i {
+  color: white;
+  font-size: larger;
+}
+
+.menu {
+  display: block;
+}
+.menu li {
+  display: inline-block;
 }

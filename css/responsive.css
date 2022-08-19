@@ -1,8 +1,12 @@
-@media only screen and (max-width: 600px) {
-    .menu{
-        display: none;
-    }
-    .text-3{
-        font-size: 20px;
-    }
+/* @media only screen and (max-width: 600px) {
+  .menu {
+    display: none;
+  }
 }
+@media only screen and (min-width: 600px) {
+  .menu {
+    display: none;
+  }
+} */
+
+
